@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ff.gwu.edu.metroexplorer.activity.MainActivity">
+
+    <Button
+        android:id="@+id/nearest_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/station_button"
+        android:layout_centerHorizontal="true"
+        android:text="@string/nearest_button"
+        android:textAllCaps="false"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/station_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="44dp"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        android:text="@string/select_station_button" />
+
+    <Button
+        android:id="@+id/favorite_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/station_button"
+        android:layout_marginTop="44dp"
+        android:textAllCaps="false"
+        android:layout_centerHorizontal="true"
+        android:textSize="24sp"
+        android:text="@string/favorite_button" />
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">游历DC</string>
+    <string name="nearest_button">附近景点</string>
+    <string name="select_station_button">查看地铁</string>
+    <string name="favorite_button">我的收藏</string>
+    <string name="share">分享</string>
+    <string name="Favorite">收藏</string>
+    <string name="Direct">导航</string>
+    <string name="call">去电</string>
+    <string name="Locationdenied">我们将无法给您提供服务，除非您授权获取您的位置</string>
+    <string name="nolandmarks">我们没有找到附近的景点</string>
+    <string name="serviceerror">服务端发生错误，请您稍后再试。</string>
+    <string name="enablegps">请打开您的GPS服务，否则无法为您提供服务。</string>
+    <string name="callerror">无法拨打电话，因为您没有授权我们。</string>
+    <string name="landmarkimageerror">无法获取景点图片。</string>
+    <string name="saved">保存成功</string>
+    <string name="nofavorites">收藏夹没有内容。</string>
+    <string name="metrostations">地铁列表</string>
+    <string name="timeout">请求超时。无法获取您的地址。</string>
+</resources>

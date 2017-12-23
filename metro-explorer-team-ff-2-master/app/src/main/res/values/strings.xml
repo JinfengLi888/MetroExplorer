@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">MetroExplorer</string>
+    <string name="title_home" translatable="false">Landmarks</string>
+    <string name="title_dashboard" translatable="false">Stations</string>
+    <string name="title_notifications" translatable="false">Favorite</string>
+
+    <string name="nearest_button">Nearest</string>
+    <string name="select_station_button">Select Station</string>
+    <string name="favorite_button">Favorites</string>
+    <string name="share">Share</string>
+    <string name="Favorite">Favorite</string>
+    <string name="Direct">Direct</string>
+    <string name="call">Call</string>
+    <string name="Locationdenied">Cannot provide service unitil you grant location permission</string>
+    <string name="nolandmarks">No more landmars around here.</string>
+    <string name="serviceerror">Service error, please try again later.</string>
+    <string name="enablegps">Please enable your GPS first.</string>
+    <string name="callerror">Unable to make a call until you grant permission</string>
+    <string name="landmarkimageerror">Landmark image fetched error.</string>
+    <string name="saved">Saved.</string>
+    <string name="nofavorites">No more favorites</string>
+    <string name="metrostations">Metro Stations</string>
+    <string name="timeout">Time out. Unable to get your location.</string>
+</resources>

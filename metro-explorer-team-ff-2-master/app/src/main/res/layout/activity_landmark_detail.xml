@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ff.gwu.edu.metroexplorer.activity.LandmarkDetailActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:id="@+id/imageView" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@+id/imageView"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:textSize="18sp"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/textView"/>
+
+    <ImageButton
+        android:id="@+id/share_button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:padding="0dp"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="44dp"
+        android:layout_marginStart="33dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"
+        app:srcCompat="@drawable/ic_share_black_24dp"/>
+
+
+    <ImageButton
+        android:id="@+id/favorite_button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/share_button"
+        android:layout_marginStart="55dp"
+        android:layout_toEndOf="@+id/share_button"
+        android:padding="0dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"
+        android:text="@string/Favorite"
+        app:srcCompat="@drawable/ic_star_black_24dp"/>
+
+    <ImageButton
+        android:id="@+id/direct_button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/favorite_button"
+        android:layout_marginStart="55dp"
+        android:layout_toEndOf="@+id/favorite_button"
+        android:padding="0dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"
+        app:srcCompat="@drawable/ic_directions_black_24dp" />
+
+    <ImageButton
+        android:id="@+id/call_button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/direct_button"
+        android:layout_marginStart="55dp"
+        android:layout_toEndOf="@+id/direct_button"
+        android:padding="0dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"
+        app:srcCompat="@drawable/ic_call_black_24dp"/>
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/share_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/address"
+        android:layout_alignStart="@+id/share_button"
+        android:layout_marginBottom="12dp"
+        android:textColor="@android:color/black"
+        android:text="@string/share" />
+
+    <TextView
+        android:id="@+id/favorite_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/share_text"
+        android:layout_alignBottom="@+id/share_text"
+        android:layout_toStartOf="@+id/direct_button"
+        android:text="@string/Favorite"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/direct_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/direct_button"
+        android:layout_alignTop="@+id/favorite_text"
+        android:textColor="@android:color/black"
+        android:text="@string/Direct" />
+
+    <TextView
+        android:id="@+id/call_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/direct_text"
+        android:layout_alignBottom="@+id/direct_text"
+        android:layout_alignStart="@+id/call_button"
+        android:text="@string/call"
+        android:textColor="@android:color/black" />
+
+</RelativeLayout>
